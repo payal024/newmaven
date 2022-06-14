@@ -25,6 +25,7 @@
 					<browser>${Browser}</browser>
 					
 					</systemPropertyVariables>
+	                                <skipTests>true</skipTests>
 					
 				</configuration>
     </plugin>
