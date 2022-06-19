@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment { 
     PATH = "/opt/maven/apache-maven-3.8.6/bin:$PATH"
+    }
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
